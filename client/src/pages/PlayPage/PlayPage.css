@@ -1,0 +1,22 @@
+.play-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 110vh;
+  overflow: hidden;
+  background: url(../../images/bg8.jpg) no-repeat center center / cover;
+  backdrop-filter: saturate(1.8);
+}
+.cards{
+  display: flex;
+}
+.play-page-title{
+  text-transform: uppercase;
+  text-shadow: -1px 0 #ddd, 0 1px #ddd, 1px 0 #ddd, 0 -1px #ddd;
+  color: rgba(168, 168, 235, 0.7);
+}
+
+.menu-btn{
+  margin: 20px;
+}
+

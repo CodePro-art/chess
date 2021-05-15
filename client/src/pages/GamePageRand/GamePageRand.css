@@ -1,0 +1,49 @@
+.flex-center{
+  min-height: 90vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid-side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.turn-order{
+  width: 600px;
+}
+
+.game-title{
+  margin: 3rem 0px 1rem 0px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.ripple{
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 1px;
+  position:relative;
+  animation: ripple 6s linear infinite;
+}
+
+.ripple-small{
+  margin: auto;
+  border-radius: 1px;
+  position: relative;
+  animation: ripple 1s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 .1rem rgba(255,255,255, 0.2);
+  }
+  70% {
+    box-shadow: 0 0 0 1rem rgba(255,255,255, 0);
+  }
+}

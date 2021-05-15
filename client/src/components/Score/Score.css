@@ -1,0 +1,27 @@
+.score-board{
+  display: flex;
+  flex-direction: column;
+  background-color: #ff0000;
+}
+
+.player-info{
+  display: flex;
+  flex-direction: column;
+  background-color: royalblue;
+}
+.flag-icon{
+  background-color: silver;
+}
+
+.user-info{
+  display: flex;
+  background-color: seagreen;
+}
+
+.timer{
+  background-color: salmon;
+}
+
+.killed-pieces{
+  background-color: gold;
+}
